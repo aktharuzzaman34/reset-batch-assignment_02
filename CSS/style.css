@@ -95,6 +95,14 @@ main {
 }
 
 /* Live SEction  */
+.flexible {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
 .live-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -107,6 +115,7 @@ main {
     background-color: #fcf8f8;
     border: 1px solid #aaaaaa;
     border-radius: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
