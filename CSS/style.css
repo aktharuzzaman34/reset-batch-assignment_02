@@ -183,3 +183,41 @@ hr {
     margin-right: 120px;
     padding-top: 20px;
 }
+
+/* ........
+            Media Queries 
+                            .........*/
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+
+    .container,
+    .flexible {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .menu-section {
+        margin-left: 70px;
+    }
+
+    .live-section {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin-left: 70px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    footer {
+        height: 480px;
+    }
+
+    .footer-info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
