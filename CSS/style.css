@@ -209,7 +209,7 @@ hr {
     }
 
     hr {
-        width: 100%;
+        width: 80%;
     }
 
     footer {
@@ -220,4 +220,40 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
+}
+
+/* Tablate Devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .container {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .flexible {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-section {
+        margin-left: 70px;
+    }
+
+    .alignment {
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .live-section {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .footer-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
