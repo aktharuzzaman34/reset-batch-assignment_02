@@ -93,3 +93,45 @@ main {
     color: aliceblue;
     padding-top: 15px;
 }
+
+/* Live SEction  */
+
+.section-templete {
+    width: 312px;
+    height: 370px;
+    background-color: #fcf8f8;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+}
+
+.wd-cup {
+    margin-bottom: 10px;
+}
+
+.fifa-u17 {
+    margin-left: 20px;
+}
+
+.transfer {
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.live-info {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+span {
+    margin-left: 10px;
+}
