@@ -52,38 +52,3 @@ main {
 .arrow {
     margin-left: 10px;
 }
-
-.updates {
-    background-color: #161616;
-    /* border: 10px solid #161616; */
-    border-top: 10px solid #161616;
-    border-bottom: 20px solid #161616;
-    border-left: 15px solid #161616;
-    border-right: 15px solid #161616;
-    border-radius: 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.list {
-
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    align-items: center;
-    /* padding-top: 10px; */
-}
-
-.group-match {
-    background-color: white;
-}
-
-.blogs {
-    color: white;
-    background-color: red;
-}
-
-.shediul {
-    padding-top: 10px;
-}
