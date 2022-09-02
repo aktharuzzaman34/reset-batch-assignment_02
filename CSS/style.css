@@ -52,3 +52,44 @@ main {
 .arrow {
     margin-left: 10px;
 }
+
+/* Live Section  */
+.menu-section {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.alignment {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.list {
+    background-color: white;
+    width: 252px;
+    height: 64px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.summary {
+    color: #161616;
+    padding-top: 15px;
+}
+
+.list-section {
+    background-color: red;
+    width: 252px;
+    height: 64px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.blogs {
+    color: aliceblue;
+    padding-top: 15px;
+}
